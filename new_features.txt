@@ -1,0 +1,3 @@
+Feature #1: @ID which provides the number of items in the list
+Feature #2: @frequency which provides the frequency of work
+Feature #3: @due_date which provides the deadline

@@ -14,8 +14,8 @@ class TodoList
         @items = Array.new
     end
 
-    def add_item(new_item, new_frequency, options = {})
-        item = Item.new new_item, new_frequency
+    def add_item(new_item, new_frequency, due)
+        item = Item.new new_item, new_frequency, due
         @items.push item
     end
 
@@ -32,20 +32,18 @@ class TodoList
         end
     end
 
-    def remove_by_id(item)
-        l = item + 1
-        s = item - 1
-        items = @items[s..l]
-        @items-items
+
+    def completed_status id
+        item=@items[id]
+        item.change_status
+        
+    end
+    def completed? num
+        @items[num].checking
     end
 
-    def completed_status completed
-        find 
-        @Complete_status = completed
-    end
-
-    def show_items
-        puts @items
+    def remove_items item
+        @items.delete_at(item)
     end
 
 end
@@ -55,15 +53,23 @@ class Item
     attr_accessor :description, :completed_status
 
     @@number_of_id = 0
-    def initialize item_description, item_frequency, options = {}
+    def initialize item_description, item_frequency, due
         
         @ID = id_number
         @description = item_description
         @completed_status = false
         @frequency = item_frequency
-        @due_date = options[:due]|| "within this month"
+        @due_date = due
         
     end
+    def checking
+        puts @completed_status
+    end
+
+    def change_status
+        @completed_status = !@completed_status
+    end
+        
 
     def id_number
         @@number_of_id += 1
