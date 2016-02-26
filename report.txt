@@ -1,0 +1,29 @@
+~~~~~~~~~~~~~~~~~~~~~~~
+Title list: Ruby studies
+~~~~~~~~~~~~~~~~~~~~~~~
+ 1 read an article 	| once per day 	|11/04/2016 	| Completed: false
+ 2 watch online tutorials 	| from time to time 	|11/04/2016 	| Completed: false
+ 3 keep updated with trends on ruby 	| daily 	|11/05/2016 	| Completed: false
+ 4 ask questions on forums 	| daily 	|22/02/2017 	| Completed: false
+~~~~~~~~~~~~~~~~~~~~~~~
+Title list: Ruby studies
+~~~~~~~~~~~~~~~~~~~~~~~
+ 2 watch online tutorials 	| from time to time 	|11/04/2016 	| Completed: false
+ 3 keep updated with trends on ruby 	| daily 	|11/05/2016 	| Completed: false
+ 4 ask questions on forums 	| daily 	|22/02/2017 	| Completed: false
+~~~~~~~~~~~~~~~~~~~~~~~
+Title list: Ruby studies
+~~~~~~~~~~~~~~~~~~~~~~~
+ 3 keep updated with trends on ruby 	| daily 	|11/05/2016 	| Completed: false
+ 4 ask questions on forums 	| daily 	|22/02/2017 	| Completed: false
+false
+~~~~~~~~~~~~~~~~~~~~~~~
+Title list: Ruby studies
+~~~~~~~~~~~~~~~~~~~~~~~
+ 3 keep updated with trends on ruby 	| daily 	|11/05/2016 	| Completed: true
+ 4 ask questions on forums 	| daily 	|22/02/2017 	| Completed: false
+~~~~~~~~~~~~~~~~~~~~~~~
+Title list: My new List
+~~~~~~~~~~~~~~~~~~~~~~~
+ 3 keep updated with trends on ruby 	| daily 	|11/05/2016 	| Completed: true
+ 4 ask questions on forums 	| daily 	|22/02/2017 	| Completed: false

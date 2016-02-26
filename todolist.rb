@@ -1,14 +1,6 @@
 class TodoList
     # methods and stuff go here
     attr_accessor :title, :items
-    def title
-    @title
-    end
-
-    def items
-    @items
-    end
-
     def initialize(list_title)
         @title = list_title
         @items = Array.new
@@ -23,12 +15,12 @@ class TodoList
         puts "~~~~~~~~~~~~~~~~~~~~~~~"
         puts "Title list: #{@title}"
         puts "~~~~~~~~~~~~~~~~~~~~~~~"
-        print_items
+        get_items
     end
 
-    def print_items
+    def get_items
         @items.each do |item|
-            item.print_each_item
+            item.print_item
         end
     end
 
@@ -36,7 +28,6 @@ class TodoList
     def completed_status id
         item=@items[id]
         item.change_status
-        
     end
     def completed? num
         @items[num].checking
@@ -54,27 +45,24 @@ class Item
 
     @@number_of_id = 0
     def initialize item_description, item_frequency, due
-        
         @ID = id_number
         @description = item_description
         @completed_status = false
         @frequency = item_frequency
         @due_date = due
-        
     end
     def checking
-        puts @completed_status
+        @completed_status
     end
 
     def change_status
         @completed_status = !@completed_status
     end
-        
 
     def id_number
         @@number_of_id += 1
     end
-    def print_each_item
+    def print_item
         puts " #{@ID} #{@description} \t| #{@frequency} \t|#{@due_date} \t| Completed: #{@completed_status}"
         #puts " #{@ID} #{@description} \t| #{@frequency}  \t| Completed: #{@completed_status}"
     end

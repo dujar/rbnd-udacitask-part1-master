@@ -1,0 +1,17 @@
+commit a158c970bf95bff46f1d2ab2164db612b9d070d0
+Author: dujar <dujar.coding@gmail.com>
+Date:   Tue Feb 23 10:38:44 2016 +0100
+
+    good results and a bit of polish
+
+commit 77658b3b68bcf18071ef5e444f21d2e19f5f5c55
+Author: dujar <dujar.coding@gmail.com>
+Date:   Tue Feb 23 09:09:13 2016 +0100
+
+    list + items + change name of list
+
+commit e19639bd5032d1201546a2a0053a8a388b8595f1
+Author: dujar <dujar.coding@gmail.com>
+Date:   Mon Feb 22 16:18:43 2016 +0100
+
+    init n erase _starter from files
